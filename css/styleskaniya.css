@@ -92,8 +92,17 @@ body{
 .add:hover{
     background-color: #FA9F42;
 }
+
+.add:focus{
+    background-color: #FA9F42;
+}
  
 .sedan:hover{
+    background-color: #FA9F42;
+    border-radius: 10px;
+}
+
+.sedan:focus{
     background-color: #FA9F42;
     border-radius: 10px;
 }
@@ -104,6 +113,11 @@ body{
 }
  
 .smtruck:hover{
+    background-color: #FA9F42;
+    border-radius: 10px;
+}
+
+.smtruck:focus{
     background-color: #FA9F42;
     border-radius: 10px;
 }
@@ -118,6 +132,11 @@ body{
     border-radius: 10px;
 }
  
+.bigtruck:focus{
+    background-color: #FA9F42;
+    border-radius: 10px;
+}
+
 .addcart{
     width: 189px;
     margin: 20px;
@@ -128,6 +147,11 @@ body{
 }
  
 .addcart:hover{
+    background-color: #FA9F42;
+   
+}
+
+.addcart:focus{
     background-color: #FA9F42;
    
 }

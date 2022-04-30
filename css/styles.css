@@ -40,6 +40,11 @@ p{
     background: #706C71;
 }
 
+.btn:focus {
+    background: #706C71;
+}
+
+
 /*header */
 #head {
     min-height: 224px;
@@ -138,6 +143,10 @@ body {
 }
 
 .navbar-links li:hover {
+    background-color: #555;
+}
+
+.navbar-links li:focus {
     background-color: #555;
 }
 

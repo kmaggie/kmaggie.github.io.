@@ -56,6 +56,9 @@ body {
 .navbar:hover {
  color: orange
 }
+.navbar:focus {
+  color: orange
+}
 .nav-item-button {
  background-color: #FA9F42;
  height: 100%;
