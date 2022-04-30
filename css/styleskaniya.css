@@ -131,3 +131,57 @@ body{
     background-color: #FA9F42;
    
 }
+
+.paynow{
+    background-color: #FA9F42;
+}
+ 
+.cartheader{
+    background-color: #FA9F42;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+ 
+.cartcontainer {
+    display: grid;
+    height:100%;
+    width: 100%;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 3fr 3fr 3fr 4fr 3fr;
+}
+ 
+.servicetype{
+    grid-row:2/3 ;
+    grid-column: 1/2;
+ 
+}
+ 
+.qty{
+    grid-row:2/3 ;
+    grid-column: 2/3;
+ 
+}
+ 
+.cost{
+    grid-row:2/3 ;
+    grid-column: 3/4;
+ 
+}
+ 
+.total{
+    grid-row:2/3 ;
+    grid-column: 4/5;
+ 
+}
+ 
+.overalltotal{
+    grid-row:4/5 ;
+    grid-column: 4/5;
+ 
+}
+ 
+.paynow{
+    grid-row: 6/7;
+    grid-column: 3/4;
+}
