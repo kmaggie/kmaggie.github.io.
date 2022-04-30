@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" 
+      content="width=device-width,initial-scale=1.0"/>
+  <title>Apply Today</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<!--Navbar-->
+<nav class="navbar">
+  <div id="logo">
+    <img src="img/logo.jpeg" alt="logo">
+  </div>
+  <a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+  <div class="navbar-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="joinourteam.html">Join Our Team</a></li>
+      <li><a href="booknow.html" class="btn">Book Now</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- HEADER -->
+<header id="head" class="grid">
+  <h1>APPLY TODAY </h1>
+  <p>Complete And Submit The Questionnaire Below With Your Availability And Qualifications And A Crew Member Will Contact You</p>
+</header>
+
+<!--FORM-->
+<div class="container">
+  <form action="index.html" method="post">
+    <div class="row">
+      <div class="col-25l">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="user_name" placeholder="first and last name" value="" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25l">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="user_email" placeholder="email@domain.com" value="" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25l">
+        <label for="tel">Phone Number</label>
+      </div>
+      <div class="col-75">
+        <input type="tel" id="tel" name="user_number" placeholder="XXX-XXX-XXXX" value="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25l">
+        <label for="subject">Briefly describe availability (Which days and hours can you work? Hour many hours can you work each week?</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25l">
+        <label for="subject">Briefly describe your prior experiences with car detailing (please include references)</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+<!--footer-->
+<footer id="footer" class="grid">
+  <p>Contact Us: 980-272-1403 / premierperimeter@yahoo.com</p>
+</footer>
+
+</body>  
+  
+</html>

@@ -1,0 +1,41 @@
+.container-fluid {
+    background: #3283E4;
+    text-align: center;
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font: Castoro
+  }
+  
+  .black {
+    color: white;
+ }
+  
+ .btn-port {
+    background-color: orange;
+    padding-top: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   width: 250px;
+    height: 60px
+  }
+  .footer {
+    background-color: #076AE1;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: castoro;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: black
+  }
+  
+  .nav-item-button {
+    background-color: #FA9F42;
+  
+   }

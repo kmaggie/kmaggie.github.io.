@@ -1,0 +1,259 @@
+body {
+    margin: 0; 
+    font-family: 'Castoro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+img {
+    display: inline-block;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 50px;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    background: #FA9F42;
+    margin: .5em 0;
+    color: white;
+}
+.btn:hover {
+    background: #706C71;
+}
+
+/*header */
+#head {
+    min-height: 224px;
+    text-align: center;
+    background: #FA9F42;
+    color: white;
+}
+
+/* section a */
+#section-a {
+    background: #3283E4;
+    padding: 2em;
+}
+
+/* section b */
+#section-b {
+    padding: 2em;
+}
+
+#section-b ul {
+    list-style: none;   
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li {
+    margin: 2;
+}
+
+/* section c */
+#section-c {
+    background: #706C71;
+    padding: 3em;
+}
+
+/* footer */
+#footer {
+    background-color: #3283E4;
+    padding: .5em;
+}
+
+/*Desktop grid for joinourteam.html */
+@media(min-width: 700px) {
+   .grid {
+       display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto)) 1fr;
+   }
+
+
+/* Navbar styling*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: .5em;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    display: inline-block;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/*form*/
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'Castoro';  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    background: #FA9F42;
+    margin: .5em 0;
+    color: white;
+    font-family: 'Castoro';
+}
+  
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .col-25l {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .col-50 {
+      float: center;
+      width: 50%;
+      margin-top: 6px
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
