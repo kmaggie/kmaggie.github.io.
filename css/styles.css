@@ -255,5 +255,28 @@ input[type=text], select, textarea{
     }
   }
 
+/*homepage*/
+#homepagecolumn1 {
+    float: left;
+    padding: 15px;
+    width: 50%;
+}
 
+#homepagecolumn2 {
+    float: left;
+    padding: 15px;
+    width: 25%;
+    margin-top: 1em;
+}
 
+#homepagerow:after{
+    content: "";
+    clear: both;
+    display:table;
+}
+
+@media screen and (max-width: 500px) {
+    .homepagecolumn {
+      width: 100%;
+    }
+  }
